@@ -4,3 +4,10 @@
   height: auto;
   margin: 10px auto;
 }
+
+.travel-data {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}

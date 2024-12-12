@@ -1,12 +1,75 @@
 
 .topHeader {
   display: flex;
-  background: red;
+  background: #F55A5A;
   color: white;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  height: 55px;
 }
 
 .topHeader > img {
-  margin-right: 0px;
+  margin-right: 7px;
+  width: 24px;
+}
+
+.topHeader > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: Inter;
+}
+
+.entry-item {
+  width: 90%;
+  height: 250px;
+  margin: 10px auto;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 5px 20px;
+  padding-left: 10px;
+}
+
+.entry-item > .details {
+  padding: 30px 0px;
+  width: 60%;
+  height: 100%;
+}
+
+.entry-item > .img {
+  width: 30%;
+  height: 100%;
+}
+
+.entry-item > .img > img {
+  border-radius: 5px;
+  width: 100%;
+  height: 250px;
+}
+
+.details > .top {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top > div > img {
+  padding-right: 10px;
+}
+
+.details > loc, .details > .bottom > .date {
+  font-weight: 500;
+  font-size: larger;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
 }
