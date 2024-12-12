@@ -21,30 +21,32 @@
 
 .entry-item {
   width: 90%;
-  height: 250px;
-  margin: 10px auto;
+  height: 198px;
+  margin: 20px auto;
   display: flex;
   border-radius: 5px;
   justify-content: space-between;
   padding: 5px 20px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 .entry-item > .details {
-  padding: 30px 0px;
-  width: 60%;
+  padding: 8px 0px;
+  width: auto;
   height: 100%;
 }
 
 .entry-item > .img {
-  width: 30%;
+  width: auto;
   height: 100%;
 }
 
 .entry-item > .img > img {
   border-radius: 5px;
-  width: 100%;
-  height: 250px;
+  width: 125px;
+  height: 100%;
+  padding-right: 20px;
+  object-fit: cover;
 }
 
 .details > .top {
@@ -52,6 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px;
 }
 
 .top > div {
@@ -61,15 +64,20 @@
 }
 
 .top > div > img {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .details > loc, .details > .bottom > .date {
   font-weight: 500;
+  margin: 0px;
   font-size: larger;
 }
 
 a {
   color: black;
   text-decoration: underline;
+}
+
+.bottom {
+  margin: 0px;
 }

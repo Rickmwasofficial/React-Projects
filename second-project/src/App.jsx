@@ -8,6 +8,9 @@ export default function App() {
       <Header />
       <div className="travel-data">
         <Entry />
+        <Entry />
+        <Entry />
+        <Entry />
       </div>
     </>
   )
