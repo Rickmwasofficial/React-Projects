@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+header > img {
+  margin-right: 10px;
+  width: 45px;
+  padding: 10px;
+}
+
+header > h1 {
+  color: rgb(23, 145, 245);
+}
+
+h2 {
+  margin: 0px;
+  margin-left: 15px;
+  padding: 20px 5px;
+}
+
+ul > li {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.facts {
+  margin-left: 40px;
+}
+
+li::marker {
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(23, 145, 245);
+}
